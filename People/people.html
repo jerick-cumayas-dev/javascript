@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People</title>
+    <link rel="stylesheet" href="people.css">
+</head>
+<body>
+    <form id="input-div">
+        <fieldset id="first-name-field">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName">
+        </fieldset>
+        <fieldset id="middle-name-field">
+            <label for="middleName">Middle name</label>
+            <input type="text" id="middleName">
+        </fieldset>
+        <fieldset id="last-name-field">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName">
+        </fieldset>
+        <button id="add-person-button">Add Person</button>
+    </form>
+    <table id="people-table">
+        <caption>People</caption>
+        <thead id="people-table-header">
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Middle Name</th>
+                <th>Last Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="people-table-body">
+            <tr>
+                <td>ID</td>
+                <td>First Name</td>
+                <td>Middle Name</td>
+                <td>Last Name</td>
+                <td>Some Actions</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="people_functions.js"></script>
+</body>
+</html>
